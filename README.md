@@ -2,7 +2,7 @@
 
 **Premium AI agent legal contract generator** — Generate legally-structured contracts for AI agent services, terms of service, NDAs, data processing agreements, and more.
 
-> **Get Pro: [Subscribe for $19/mo →](PAYLINK_PLACEHOLDER)**
+> **Get Pro: [Subscribe for $19/mo →](https://buy.stripe.com/eVq9AVa1xgAk3rygvx1oI0A)**
 
 ---
 
@@ -36,7 +36,7 @@
 | Pro watermark removal | — | Yes |
 | Priority support | — | Yes |
 
-**[Subscribe to Pro →](PAYLINK_PLACEHOLDER)**
+**[Subscribe to Pro →](https://buy.stripe.com/eVq9AVa1xgAk3rygvx1oI0A)**
 
 ---
 
