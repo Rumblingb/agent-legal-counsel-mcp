@@ -1,0 +1,22 @@
+# Smithery deployment configuration for Agent Legal Counsel MCP
+# https://smithery.ai
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: "API key for authentication. Use 'free_' prefix for free tier, 'prol_' prefix for Pro tier."
+        default: "free_demo_key_2024"
+    required: []
+  commandFunction: |
+    (config) => ({
+      command: 'python',
+      args: ['/app/server.py'],
+      env: {
+        API_KEY: config.apiKey || 'free_demo_key_2024',
+        PYTHONUNBUFFERED: '1'
+      }
+    })
