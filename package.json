@@ -1,0 +1,13 @@
+{
+  "name": "agentpay-legal-counsel-mcp",
+  "version": "1.0.0",
+  "description": "MCP server: Generate AI agent legal contracts, ToS, NDAs, and waivers",
+  "main": "server.py",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rumblingb/agent-legal-counsel-mcp.git"
+  },
+  "homepage": "https://rumblingb.github.io/agent-legal-counsel-mcp/",
+  "author": "AgentPay Labs",
+  "license": "MIT"
+}
