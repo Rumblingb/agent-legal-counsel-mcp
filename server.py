@@ -13,7 +13,7 @@ from datetime import datetime, date
 # Check if we can import mcp
 try:
     from mcp import types
-    from mcp.server import Server
+    from mcp.server.lowlevel import Server
     from mcp.server.models import InitializationOptions
     import mcp.server.stdio as stdio_server
     MCP_AVAILABLE = True
