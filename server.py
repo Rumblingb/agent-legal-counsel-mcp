@@ -707,10 +707,7 @@ if MCP_AVAILABLE:
             await server.run(
                 read_stream=read_stream,
                 write_stream=write_stream,
-                initialization_options=InitializationOptions(
-                    server_name="agent-legal-counsel",
-                    server_version="1.0.0",
-                ),
+                initialization_options=server.create_initialization_options(),
             )
 
 
